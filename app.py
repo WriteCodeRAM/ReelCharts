@@ -33,7 +33,7 @@ def main():
     if selected_option == 'Home':
         filter_type = st.radio('What movies would you like to see?',
                                ['Popular', 'Now Playing', 'Top Rated', 'Upcoming'])
-        search_query = st.text_input("Search by movie title")
+        search_query = st.text_input("Search by Movie Title")
 
         # Clear release_year input if a search query is entered
         if search_query:
